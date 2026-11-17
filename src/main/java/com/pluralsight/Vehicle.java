@@ -4,12 +4,7 @@ public class Vehicle {
     private String color;
     private int numberOfPassengers, cargoCapacity, fuelCapacity;
 
-    public Vehicle() {
-        super();
-    }
-
     public Vehicle(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
-        super();
         this.color = color;
         this.numberOfPassengers = numberOfPassengers;
         this.cargoCapacity = cargoCapacity;

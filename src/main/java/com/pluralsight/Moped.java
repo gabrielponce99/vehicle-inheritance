@@ -8,10 +8,6 @@ public class Moped extends Vehicle {
         this.kickstandDown = kickstandDown;
     }
 
-    public Moped() {
-        super();
-    }
-
     public boolean isKickstandDown() {
         return kickstandDown;
     }
